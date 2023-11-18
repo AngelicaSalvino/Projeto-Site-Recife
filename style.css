@@ -1,35 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ef8f19;
+}
+
 header {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: crimson;
-  }
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-title {
+    font-size: 70px;
+    justify-content: center;
+    text-align: center; 
+}
+
+.title {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.subtitulo {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Opcional: centralizar o texto dentro dos itens */
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    margin-right: 100px; 
+}
   
-  header, footer {
-    background: #6f37b9;
+header img {
+    width: 80px; 
+    float: left;  
+    margin-right: 30px; 
+}
+
+header, footer {
+    background: #ef8f19;
     color: white;
     padding: 16px;
-  }
+}
   
-  #logo-header {
-    font-size: 32px;
-  }
+#logo-header {
+    font-size: 10px;
+}
   
-  a {
+a {
     text-decoration: none;
     color: white;
-  }
+}
   
-  main {
-    background-color: #EF7D19;
+main {
+    background-color: #ef8f19;
     padding: 16px;
     color: white;
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-  }
-  
-  img {
-    margin: 32px;
-  }
-  
-  .rede-social {
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    margin: 8px;
-  }
+    font-family: Maven Pro, sans-serif;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer img {
+    width: 80px; 
+    float: left;  
+    margin-right: 30px;
+    margin-block-end: auto; 
+}
+
+.foto {
+    width: 70vw;
+    height: 70vh;
+    object-fit: cover;
+    margin-top: 12px;
+    border: solid #0b0b0b;
+    display: block; /* Para centralizar horizontalmente */
+    margin-left: auto; /* Para centralizar horizontalmente */
+    margin-right: auto; /* Para centralizar horizontalmente */
+    margin-bottom: 30px; /* Adiciona espaçamento abaixo da imagem */
+    margin-top: 30px;
+}
